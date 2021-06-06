@@ -16,20 +16,20 @@
 
 <header class="header">
   <div class="container">
-    <div class="header__wrapper">
-
-
-  <a class="header__link" href="./index.html">
-    <img class="header__logo" src="./images/bookmark-logo.svg" alt="bookmark-logo">
-  </a>
-
   <nav class="navbar">
+
+    <a class="header__logo" href="./index.html">
+      <img class="header-logo__img" src="./images/bookmark-logo.svg" alt="bookmark-logo">
+    </a>
+
       <ul class="navbar__list">
         <li class="navbar__item"><a class="navbar__link" href="">FEATURES</a></li>
         <li class="navbar__item"><a class="navbar__link" href="">PRICING</a></li>
         <li class="navbar__item"><a class="navbar__link" href="">CONTACT</a></li>
-        <li class="navbar__item"><a class="navbar__link navbar__login" href="">LOGIN</a></li>
+        
       </ul>
+
+      <a class="navbar__link navbar-login__button" href="">LOGIN</a>
   </nav>
 
 </div>
@@ -39,10 +39,13 @@
 
 
 <main>
+  <h1 class="visually-hidden">
+    BookMark extension
+  </h1>
+
 <section class="hero">
-<div class="container">
-  <div class="hero__wrapper">
-      
+  <div class="container">
+
     <div class="hero__content">
         <h2 class="hero__heading">
           A Simple Bookmark Manager
@@ -53,14 +56,50 @@
         </p>
 
         <div class="bookmarks__link">
-        <a class="bookmark bookmark__purple" href="">Get it on Chrome</a>  
-        <a class="bookmark bookmark__white" href="">Get it on Firefox</a>
+          <a class="bookmark bookmark__purple" href="">Get it on Chrome</a>  
+          <a class="bookmark bookmark__white" href="">Get it on Firefox</a>
         </div>
       </div>
       
   </div>
-</div>
+
 </section>
+
+
+<section class="features">
+  <div class="container">
+
+      <div class="features__content">
+        <header class="feature-heading__content">
+          <h2 class="features__heading">Features</h2>
+          <p class="features__desc">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+        </header>
+
+        <ul class="features__list">
+          <li class="features__item"><button class="features__button red" > Simple Bookmarking</button></li>
+          <li class="features__item"><button class="features__button"> Speedy Searching</button></li>
+          <li class="features__item"><button class="features__button"> Easy Sharing</button></li>
+        </ul>
+      </div>
+  
+     
+      <div class="feauture-bookmark__wrapper">
+        <div class="container">
+          <h2 class="feauture-bookmark__heading">Bookmark in one click</h2>
+          <p class="feauture-bookmark__desc">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+      
+          <a class="feauture-bookmark__link bookmark__purple" href="#">More Info</a>
+        </div>
+      
+        <img class="feature__img" src="./images/features-img.png" alt="tablet-graph">
+      </div>
+
+  </div>
+</section>
+
+
+
+
 
 
 
@@ -109,7 +148,105 @@
 
 
 
+<section class="questions">
+  <div class="container">
+<div class="questions__heading">
+<h2 class="questions__title">Frequently Asked Questions</h2>
+<p class="questions__desc">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+</div>
+
+<ul class="questions__list">
+  <li class="questions__item questions__item--active">
+    <div class="questions__item--wrapper">
+      <h3 class="questions__item--title">What is Bookmark?</h3>
+      <button class="questions__item--button"></button>
+    </div>
+<p class="questions__item--dropdown">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+  </li>
+
+  <li class="questions__item ">
+    <div class="questions__item--wrapper">
+      <h3 class="questions__item--title">How can I request a new browser?</h3>
+      <button class="questions__item--button"></button>
+    </div>
+<p class="questions__item--dropdown">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+  </li>
+
+  <li class="questions__item ">
+    <div class="questions__item--wrapper">
+      <h3 class="questions__item--title">Is there a mobile app?</h3>
+      <button class="questions__item--button"></button>
+    </div>
+<p class="questions__item--dropdown">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+  </li>
+
+  <li class="questions__item quest-border__bottom">
+    <div class="questions__item--wrapper">
+      <h3 class="questions__item--title">What about other Chromium browsers?</h3>
+      <button class="questions__item--button"></button>
+    </div>
+<p class="questions__item--dropdown">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+  </li>
+
+  <li class="centred-info-link"><a class="feauture-bookmark__link bookmark__purple" href="#">More Info</a></li>
+</ul>
+
+
+</div>
+</section>
+
+
+<section class="contact__form">
+  <div class="container">
+<p class="contact__desc">35,000+ ALREADY JOINED</p>
+<p class="contact__item">Stay up-to-date with what
+  we’re doing</p>
+
+  <form class="form__container" action="/action_page.php" method="POST">
+    <input class="contact-form__email" name="user_email" type="email" id="input-email" placeholder="Enter your email address" aria-label="type your email" required="">
+  
+    <button class="submit__button form__button" type="submit" id="sub-btn">Contact us</button>
+  
+  </form>
+
+
+
+</div>
+</section>
+
 </main>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-container">
+    <a class="footer__logo" href="./index.html">
+      <img class="footer-logo__img" src="./images/footer-logo.svg" alt="bookmark-logo">
+    </a>
+
+      <ul class="footer__list">
+        <li class="footer__item"><a class="footer__link" href="#">FEATURES</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">PRICING</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">CONTACT</a></li>
+        
+      </ul>
+
+      <div class="social-nets">
+          <a class="soc-links facebook-link" href="#"> 
+            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="social__link-backgr" fill-rule="evenodd" clip-rule="evenodd" d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" fill="#fff"/>
+          </svg></a>
+          
+          <a class="soc-links twitter-link" href="#">
+          <svg width="24" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="social__link-backgr" fill-rule="evenodd" clip-rule="evenodd" d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z" fill="#fff"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
   <script src="js/main.js"></script>
 </body>
 </html>
